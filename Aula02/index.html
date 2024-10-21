@@ -3,51 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 2 - Tabelas</title>
+    <title>Aula 02 - Listas e Tabela</title>
 </head>
 <body>
-<!-- 
-<table>: Essa tag define uma tabela. 
-<tr>: Essa tag representa uma "linha" da tabela. 
-<td>: Essa tag representa uma "célula de dados" na tabela. É usada para armazenar o conteúdo da tabela, como texto, imagens ou outros elementos HTML. O <td> deve sempre estar dentro de uma tag <tr>. 
-<th>: Essa tag representa o caberçario (deixa como negrito)    -->
-    
-    <table border = "1" width = "75%">
-        <tr align="center">
-            <th>Nome</th>
-            <th>Email</th>
-            <th>Senha</th>
-        </tr>
+    <!-- Lista não ordenada -->
+    <ul>
+      <li>
+        HTML
+        <ul>
+            <li>Títulos</li>
+            <li>Parágrafos</li>
+            <li>Imagens</li>
+        </ul>
+      </li>  
+      <!-- ul>li*3{Exemplo: $$} -->
+      <li>
+        CSS
+        <ul>
+            <li>Exemplo: 01</li>
+            <li>Exemplo: 02</li>
+            <li>Exemplo: 03</li>
+        </ul>
+    </li>   
+      <li>Javascript</li>   
+      <li>PHP</li>   
+      <li>SQL Server</li>   
+    </ul>
 
-        <tr>
-            <td>Rafael Cainã Ferreira</td>
-            <td>representante@lider.com.br</td>
-            <td>lider123456</td>
-        </tr>
-    </table>
-    <br>
-    <table border="1" width = "30%">
-        <tr>
-            <td colspan = "2">1</td>
-            <!--  <td>2</td>-->
-            <td>3</td>
-        </tr>
-
-        <tr>
-            <td>A</td>
-            <td>B</td>
-            <td rowspan = "2">C</td>
-        </tr>
+    <!-- ul>li*3 ele fez automaticamente  -->
+    <ul>
+        <li>Não sei</li>
+        <li>Tanto faz</li>
+        <li>Você que sabe</li>
+    </ul>
 
 
-        <tr>
-            <td>red</td>
-            <td>green</td>
-            <!--<td>blue</td>-->
-        </tr>
 
-        
-        
-    </table>
+
+
+    <!-- lista ordenada (1,2,3,4,5,6)-->
+    <!-- Voce colocando atributo type (tipo) voce pode colocar a ordem em numerico, em alfabetico, algorismo romano -->
+    <!-- O atributo start faz começar a ordem da lista a partir do numero que voce colocou, se voce colocou 50, ele começa contar os itens da lista a partir do 50 -->
+    <ol type = "I" start="1">
+        <li>
+            Programação Web
+            <ol>
+                <li>Linguagem de marcação(HTML)</li>
+                <li>Linguagem de estilização (CSS)</li>
+                <li>Linguagem programação (JAVASCRIPT)</li>
+            </ol>
+        </li>
+        <li>Banco de Dados</li>
+        <li>Design</li>
+        <li>Front-End</li>
+        <li>Back-End</li>
+    </ol>
+
+
+
+
+    <!-- Lista de Definição -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação de hypertexto</dd>
+    </dl>
+
+    <a href="tabelas.html">Acessar tabelas</a>
+
 </body>
 </html>
