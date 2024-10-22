@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1 - Sobre</title>
+</head>
+<body>
+    <p>
+        Informações sobre o site ou empresa
+    </p>
+
+    <!-- ../ Ele vai sair da pasta onde eu estou e vai pro index.html -->
+    <a href="../index.html">HOME</a>
+    <br>
+    <!-- Ele vai sair de uma pasta pra entrar em outra pasta e acessar um arquivo -->
+    <a href="../info/contato.html">Contato</a>
+</body>
+</html
