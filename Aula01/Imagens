@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01 - Pagina com imagem</title>
+</head>
+<body>
+    <!-- alt é explicativo da imagem, caso haja algum erro, ele irá exibir o alt-->
+    <img src="SuperMario.jpg" alt="Foto do Super Mario" width="100" height="auto">
+   
+</body>
+</html>
