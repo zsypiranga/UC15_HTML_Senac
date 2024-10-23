@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05 - Formulários</title>
+</head>
+<body>
+    <!-- colocando um ponto de interrogação, vc está passando um valor pra ela  = ?nome  -->
+    <!-- & server como E, onde posso colocar 1 valor & 2 valor -->
+    <!--  
+    <a href="index.html?nome=texto1">Passar um valor</a><br>
+    <a href="index.html?nome=henrique&idade=15">Passar dois valores</a><br>
+    <a href="index.html?nome=Cleber&idade=15&sexo=M&hobbie=jogar video game">Passar quatro valores</a><br>
+    -->
+    <!-- Fieldset é um conjunto de campos -->
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Formulário HTML</legend>
+            <!-- Agora é trabalhar com os campos do formulario -->
+            <!-- o for ="nome" vai trabalhar junto com id do input nome -->
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"><br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha">
+        </fieldset>
+
+        <fieldset>
+            <legend>Contatos</legend>
+
+            <label for="tel">Telefone:</label>
+            <input type="text" name="tel" id="tel">
+        </fieldset>
+
+        <!-- Funciona como tipo de botão pra enviar os dados -->
+        <input type="submit" value="Enviar">
+
+
+    </form>
+</body>
+</html>
